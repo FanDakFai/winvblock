@@ -144,3 +144,27 @@ TODO's, Notes and known issues:
 8. Client trunking and Server trunking is not yet enabled.
 9. aoe.0 does not work with Vista yet, use gPXE's AoE support for now.
 10. unmounting when multiple disks are mounted may cause a BSOD. unmounting when only a single disk is mounted should be ok.
+
+
+######################
+# Added by FanDakFai #
+######################
+Objective: setup development enviroment on Windows 10
+
+Prerequisite:
+	0. Windows 10 Version 1903 (OS Build 18362.175) or 'similar' version
+	1. .NET framework 3.5
+	2. WDK 7.1.0
+		https://docs.microsoft.com/en-us/windows-hardware/drivers/other-wdk-downloads
+		Search for link download "WDK 7.1.0"
+
+Install
+	1. Install .NET framework 3.5 from 'Control Panel' / 'Install software' / 'Add windows feature' / Select '.NET framework 3.5'
+	2. Install WDK 7.1.0 with all feature that software package offer.
+
+Setup development enviroment
+	0. Clone this repository
+	1. Set the path to the DDK in config.bat
+	2. Run config
+	3. Run makechecked
+	4. Get output artifact in bin folder (if they are compiled successfully)

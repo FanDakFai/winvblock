@@ -37,7 +37,7 @@
 /* Spoof these types for the #include to succeed.  TODO: Fix this. */
 typedef char
   WV_S_DEV_EXT, WV_S_DEV_T, PDEVICE_OBJECT,
-  WVL_S_BUS_NODE, WVL_S_DISK_T, KEVENT;
+  WVL_S_BUS_NODE, WVL_S_DISK_T, KEVENT, WV_E_DEV_STATE, PDRIVER_DISPATCH;
 #include "aoe.h"
 
 /** Forward declarations. */
