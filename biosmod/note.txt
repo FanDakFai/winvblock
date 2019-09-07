@@ -1,0 +1,5 @@
+Memtest Reference tools to extract bios: https://github.com/coreboot/bios_extract/blob/master/src/ami.c
+Memtest ami module: amibody_72.rom
+
+Memtest source code link: https://www.memtest.org/download/4.00/memtest86+-4.00.tar.gz
+Memtest related entry point: head.S
